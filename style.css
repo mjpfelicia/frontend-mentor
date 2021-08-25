@@ -135,9 +135,11 @@
             display: grid;
             grid: 1fr 1fr / repeat(9, 1fr);
             margin: 100px;
+            padding: 0px;
         }
         .box_primeiro {
             text-align: left;
+            max-width: 90%;
         }
         .box_primeiro h1 {
             font-size: 3em;
@@ -162,7 +164,6 @@
         .item_geral {
             display: grid;
             grid-column: 5/10;
-            padding-top: 70px;
             grid-template-rows: repeat(3, 40px);
         }
         .descricao {
